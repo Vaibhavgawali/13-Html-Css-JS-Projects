@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:darkcyan;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.currency-cont{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-cont select{
+    padding: 10px;
+}
+
+.currency-cont input{
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.exchange{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus,input:focus{
+    outline: none;
+}

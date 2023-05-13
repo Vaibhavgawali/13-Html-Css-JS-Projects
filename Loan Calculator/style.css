@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.loan-cont{
+    padding: 10px;
+}
+
+.inp{
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    border:none;
+    outline: none;
+}
+
+.info{
+    font-size: 20px;
+    font-weight: 600;
+}
